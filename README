@@ -18,6 +18,7 @@ Requirements (install separate):
 	* sudo
 	* systemctl or service
 	* cron
+	* php
 
 
 Install:  ./install.sh
