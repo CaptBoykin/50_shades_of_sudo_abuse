@@ -49,12 +49,15 @@ done
 
 chown -v root:root '/home/section9_editors/bin/sudo' ;\
 chmod u+s '/home/section9_editors/bin/sudo' ;\
+chmod +x '/home/section9_editors/bin/sudo' ;\
 
 chown -v root:root '/home/section11_pwfeedback/bin/sudo' ;\
 chmod u+s '/home/section11_pwfeedback/bin/sudo' ;\
+chmod +x '/home/section11_pwfeedback/bin/sudo' ;\
 
 chown -v root:root '/home/section14_2019-14287/bin/sudo' ;\
 chmod u+s '/home/section14_2019-14287/bin/sudo' ;\
+chmod +x '/home/section14_2019-14287/bin/sudo' ;\
 
 ls -alh '/home/section9_editors/bin/sudo' ;\
 ls -alh '/home/section11_pwfeedback/bin/sudo' ;\
