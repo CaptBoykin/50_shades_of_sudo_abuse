@@ -22,7 +22,7 @@ Requirements (install separate):
 	* php
 	* nc, netcat, whatever
 
-
+RUN AS ROOT!
 Install:  ./install.sh
 
 * Will create backup of /etc/shadow -> /etc/shadow.bak
