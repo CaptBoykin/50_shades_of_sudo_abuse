@@ -43,7 +43,7 @@ cp -vr '/home' '/home.bak' &&\
 
 for dir in ${HOMEDIRS_LIST[*]}
 do
-	cp -vr "${HOMEDIRS}/${dir}" '/home'
+	unzip "${HOMEDIRS}/${dir}.zip" -d '/home/'
 done
 
 
