@@ -7,6 +7,7 @@ Description:  This will create a local setup of what was used during the VetSecC
 Requirements (install separate):
 	* gcc
 	* python
+	* pip
 	* python3
 	* wget
 	* base64
@@ -19,6 +20,7 @@ Requirements (install separate):
 	* systemctl or service
 	* cron
 	* php
+	* nc, netcat, whatever
 
 
 Install:  ./install.sh
