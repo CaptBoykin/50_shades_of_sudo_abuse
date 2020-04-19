@@ -1,4 +1,5 @@
 Defaults:section6_ldpreload	env_keep+=LD_PRELOAD
+Defaults:section9_editors secure_path=/home/section9_editors/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 Defaults:section11_pwfeedback   pwfeedback
 Defaults:section13_path2 secure_path=/tmp:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 Defaults:section14_2019-14287 secure_path=/home/section14_2019-14287/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
