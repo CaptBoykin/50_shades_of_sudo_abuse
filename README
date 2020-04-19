@@ -36,5 +36,7 @@ Install:  ./install.sh
 * Will append to /etc/group
 * Will append to /home/
 
+* Will create /etc/sudoers_fifty/sudoers_fifty
+
 
 Uninstall: ./uninstall.sh
