@@ -2,7 +2,7 @@
 
 Tyler Boykin: @CaptBoykin (capt.boykin.0602@gmail.com)
 
-Description:  This will create a local setup of what was used during the VetSecCon 2020 talk "50 Shades of Sudo Abuse".  Was done live with Ubuntu 19.10.  Ideal setup is a beater/practice VM that you don't mind getting wrecked and reverting if something goes wrong.  If you do decide to put this on something more important, I tried my best to make it "overlay" as good as possible while leaving existing services and functionality.  
+Description:  This will create a local setup of what was used during the VetSecConJr 2020 talk "50 Shades of Sudo Abuse".  Was done live with Ubuntu 19.10.  Ideal setup is a beater/practice VM that you don't mind getting wrecked and reverting if something goes wrong.  If you do decide to put this on something more important, I tried my best to make it "overlay" as good as possible while leaving existing services and functionality.  
 
 Requirements (install separate):
 	* gcc
