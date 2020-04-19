@@ -1,0 +1,40 @@
+50 Shades of Sudo Abuse Demo Material
+
+Tyler Boykin: @CaptBoykin (capt.boykin.0602@gmail.com)
+
+Description:  This will create a local setup of what was used during the VetSecCon 2020 talk "50 Shades of Sudo Abuse"
+
+Requirements (install separate):
+	* gcc
+	* python
+	* python3
+	* wget
+	* base64
+	* man
+	* ruby
+	* expect
+	* sudoedit
+	* visudo
+	* sudo
+	* systemctl or service
+	* cron
+
+
+Install:  ./install.sh
+
+* Will create backup of /etc/shadow -> /etc/shadow.bak
+* Will create backup of /etc/passwd -> /etc/passwd.bak
+* Will create backup of /etc/sudoers -> /etc/sudoers.bak
+* Will create backup of /etc/crontab -> /etc/crontab.bak
+* Will create backup of /etc/group -> /etc/group.bak
+* Will create backup of /home  -> /home.bak
+
+* Will append to /etc/shadow
+* Will append to /etc/passwd
+* Will append to /etc/sudoers
+* Will append to /etc/crontab
+* Will append to /etc/group
+* Will append to /home/
+
+
+Uninstall: ./uninstall.sh
